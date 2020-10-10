@@ -1,0 +1,132 @@
+/* текст заголовков h2, h3, списка nav,  #212121 */
+/* подписи под заголовками, верхний телефон и емейл, профессия ## */
+:root{
+    --primary-text-color: #212121;
+    --secondary-test-color: #757575;
+    --main-blue-color: #2196F3;
+    --hover-link: #2196F3;
+}
+
+h2,h3{
+    color: var(--primary-text-color);
+}
+
+/* Страница - "Студия" */
+/* nav */
+/* Logo */
+.logo{
+    text-decoration: none;
+}
+.logo-web{
+    color: var(--main-blue-color)
+}
+
+.logo .studio-black{
+    color: var(--primary-text-color);;
+}
+
+/* nav-list */
+.nav-list{
+    list-style: none;
+}
+
+.nav-list .link{
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.nav-list .link:hover, 
+.nav-list .link:focus{
+    color: var(--hover-link);
+}
+
+/* contacts info */
+.contacts .link{
+    color: var(--secondary-test-color);
+    text-decoration: none;
+}
+
+.contacts .link:hover, 
+.contacts .link:focus{
+    color:var(--hover-link);
+}
+/* closed header */
+
+/* hero */
+.hero .title{
+    color: #FFFFFF;
+}
+
+.hero .link{
+    background-color: var(--main-blue-color);
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* advantages list */
+.advantages{
+    list-style: none;
+}
+
+.advantages .text{
+    color: var(--secondary-test-color);
+}
+
+/* Чем мы анимаемся */
+.work .list{
+    list-style: none;
+}
+
+/* Наша команда */
+.team .list{
+    list-style: none;
+}
+
+.team .text-title{
+    color: var(--secondary-test-color);
+}
+
+/* Футер */
+.logo .web{
+    color: var(--main-blue-color)
+}
+
+.logo .studio-white{
+    color:#FFFFFF;
+}
+
+.company-address .map{
+    color: #FFFFFF;
+}
+
+.company-address .link{
+    color: rgba(255, 255, 255, 0.6);;
+}
+
+/* Страница - "Портфолио" */
+
+/* Список-фильтр */
+.works .works-list{
+    list-style: none;
+}
+
+.works .link{
+    background-color: #F5F4FA;
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.works .link:hover,
+.works .link:focus{
+    background-color: var(--hover-link);
+    color: #FFFFFF;
+}
+
+/* Примеры работ */
+.work-examples .list{
+    list-style: none;
+}
+
+.work-examples .list-text{
+    color: var(--secondary-test-color);
+}
