@@ -132,10 +132,10 @@ h2,h3{
     list-style: none;
 }
 
-.work-examples-list .link{
+.work-link{
     text-decoration: none;
 }
 
-.work-examples-list .list-text{
+.work-link .text{
     color: var(--secondary-test-color);
 }
