@@ -128,10 +128,14 @@ h2,h3{
 }
 
 /* Примеры работ */
-.work-examples .list{
+.work-examples-list{
     list-style: none;
 }
 
-.work-examples .list-text{
+.work-examples-list .link{
+    text-decoration: none;
+}
+
+.work-examples-list .list-text{
     color: var(--secondary-test-color);
 }
