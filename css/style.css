@@ -40,6 +40,11 @@ h2,h3{
     color: var(--hover-link);
 }
 
+/* active page */
+.link.active {
+    color: var(--hover-link)
+}
+
 /* contacts info */
 .contacts .link{
     color: var(--secondary-test-color);
