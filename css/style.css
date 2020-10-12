@@ -111,31 +111,31 @@ h2,h3{
 /* Страница - "Портфолио" */
 
 /* Список-фильтр */
-.works .works-list{
+.works .filter{
     list-style: none;
 }
 
-.works .link{
+.filter-link{
     background-color: #F5F4FA;
     color: var(--primary-text-color);
     text-decoration: none;
 }
 
-.works .link:hover,
-.works .link:focus{
+.filter-link:hover,
+.filter-link:focus{
     background-color: var(--hover-link);
     color: #FFFFFF;
 }
 
 /* Примеры работ */
-.work-examples-list{
+.examples{
     list-style: none;
 }
 
-.work-link{
+.examples-link{
     text-decoration: none;
 }
 
-.work-link .text{
+.examples-text{
     color: var(--secondary-test-color);
 }
