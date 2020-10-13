@@ -1,141 +1,267 @@
 /* текст заголовков h2, h3, списка nav,  #212121 */
 /* подписи под заголовками, верхний телефон и емейл, профессия ## */
-:root{
-    --primary-text-color: #212121;
-    --secondary-test-color: #757575;
-    --main-blue-color: #2196F3;
-    --hover-link: #2196F3;
+/* Project fonts */
+/* font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: 700; */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-test-color: #757575;
+  --main-blue-color: #2196f3;
+  --hover-link: #2196f3;
 }
 
-h2,h3{
-    color: var(--primary-text-color);
+body {
+  font-family: Roboto, sans-serif;
+}
+
+h2,
+h3 {
+  color: var(--primary-text-color);
 }
 
 /* Страница - "Студия" */
 /* nav */
 /* Logo */
-.logo{
-    text-decoration: none;
+.logo {
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
-.logo-web{
-    color: var(--main-blue-color)
+.logo-web {
+  color: var(--main-blue-color);
 }
 
-.logo .studio-black{
-    color: var(--primary-text-color);;
+.logo .studio-black {
+  color: var(--primary-text-color);
 }
 
 /* nav-list */
-.nav-list{
-    list-style: none;
+.nav-list {
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
-.nav-list .link{
-    color: var(--primary-text-color);
-    text-decoration: none;
+.nav-list .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
 }
 
-.nav-list .link:hover, 
-.nav-list .link:focus{
-    color: var(--hover-link);
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: var(--hover-link);
 }
 
 /* active page */
 .link.active {
-    color: var(--hover-link)
+  color: var(--hover-link);
 }
 
 /* contacts info */
-.contacts .link{
-    color: var(--secondary-test-color);
-    text-decoration: none;
+.contacts .link {
+  color: var(--secondary-test-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
-.contacts .link:hover, 
-.contacts .link:focus{
-    color:var(--hover-link);
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--hover-link);
 }
 /* closed header */
 
 /* hero */
-.hero .title{
-    color: #FFFFFF;
+.hero {
+  background: #2f303a;
 }
 
-.hero .link{
-    background-color: var(--main-blue-color);
-    color: #FFFFFF;
-    text-decoration: none;
+.hero .title {
+  color: #ffffff;
+}
+
+.hero .title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero .link {
+  background-color: var(--main-blue-color);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-decoration: none;
 }
 
 /* advantages list */
-.advantages{
-    list-style: none;
+.advantages {
+  list-style: none;
 }
 
-.advantages .text{
-    color: var(--secondary-test-color);
+.advantages .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantages .text {
+  color: var(--secondary-test-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* Чем мы анимаемся */
-.work .list{
-    list-style: none;
+.work .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.work .list {
+  list-style: none;
 }
 
 /* Наша команда */
-.team .list{
-    list-style: none;
+.team .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
-.team .text-title{
-    color: var(--secondary-test-color);
+.team .list {
+  list-style: none;
+}
+
+.team .list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team .text-title {
+  color: var(--secondary-test-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
 }
 
 /* Футер */
-.logo .web{
-    color: var(--main-blue-color)
+
+footer {
+  background: #2f303a;
 }
 
-.logo .studio-white{
-    color:#FFFFFF;
+.logo .web {
+  color: var(--main-blue-color);
 }
 
-.company-address .map{
-    color: #FFFFFF;
+.logo .studio-white {
+  color: #ffffff;
 }
 
-.company-address .link{
-    color: rgba(255, 255, 255, 0.6);;
+.company-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.company-address .map {
+  color: #ffffff;
+}
+
+.company-address .link {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* Страница - "Портфолио" */
 
 /* Список-фильтр */
-.works .filter{
-    list-style: none;
+.works .filter {
+  list-style: none;
 }
 
-.filter-link{
-    background-color: #F5F4FA;
-    color: var(--primary-text-color);
-    text-decoration: none;
+.filter-link {
+  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 
 .filter-link:hover,
-.filter-link:focus{
-    background-color: var(--hover-link);
-    color: #FFFFFF;
+.filter-link:focus {
+  background-color: var(--hover-link);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 
 /* Примеры работ */
-.examples{
-    list-style: none;
+.examples {
+  list-style: none;
 }
 
-.examples-link{
-    text-decoration: none;
+.examples-link {
+  text-decoration: none;
 }
 
-.examples-text{
-    color: var(--secondary-test-color);
+.examples-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.examples-text {
+  color: var(--secondary-test-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
