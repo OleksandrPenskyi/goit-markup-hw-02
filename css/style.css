@@ -1,5 +1,9 @@
 /* текст заголовков h2, h3, списка nav,  #212121 */
-/* подписи под заголовками, верхний телефон и емейл, профессия ## */
+/* подписи под заголовками, верхний телефон 
+и емейл, профессия #757575 */
+/* Цвет конопок, вспомогательный цвет  #ffffff */
+/* основной синий цвет, для ховерка и фокуса  #2196f3 */
+
 
 
 /* Project fonts */
@@ -28,7 +32,6 @@ font-weight: 700; */
   --secondary-text-color: #757575;
   --third-text-color: #ffffff;
   --main-blue-color: #2196f3;
-  --hover-link: #2196f3;
   --bg-main-color:#2f303a;
 }
 
@@ -76,12 +79,12 @@ h3 {
 
 .nav-list .link:hover,
 .nav-list .link:focus {
-  color: var(--hover-link);
+  color: var(--main-blue-color);
 }
 
 /* active page */
 .link.active {
-  color: var(--hover-link);
+  color: var(--main-blue-color);
 }
 
 /* contacts info */
@@ -96,7 +99,7 @@ h3 {
 
 .contacts .link:hover,
 .contacts .link:focus {
-  color: var(--hover-link);
+  color: var(--main-blue-color);
 }
 /* closed header */
 
@@ -238,7 +241,7 @@ footer {
 
 .filter-link:hover,
 .filter-link:focus {
-  background-color: var(--hover-link);
+  background-color: var(--main-blue-color);
   color: var(--third-text-color);
   text-decoration: none;
   font-weight: 500;
