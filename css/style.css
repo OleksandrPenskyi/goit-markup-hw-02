@@ -1,5 +1,7 @@
 /* текст заголовков h2, h3, списка nav,  #212121 */
 /* подписи под заголовками, верхний телефон и емейл, профессия ## */
+
+
 /* Project fonts */
 /* font-family: Roboto;
 font-style: normal;
@@ -23,9 +25,11 @@ font-weight: 700; */
 
 :root {
   --primary-text-color: #212121;
-  --secondary-test-color: #757575;
+  --secondary-text-color: #757575;
+  --third-text-color: #ffffff;
   --main-blue-color: #2196f3;
   --hover-link: #2196f3;
+  --bg-main-color:#2f303a;
 }
 
 body {
@@ -82,7 +86,7 @@ h3 {
 
 /* contacts info */
 .contacts .link {
-  color: var(--secondary-test-color);
+  color: var(--secondary-text-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -98,11 +102,11 @@ h3 {
 
 /* hero */
 .hero {
-  background: #2f303a;
+  background: var(--bg-main-color);
 }
 
 .hero .title {
-  color: #ffffff;
+  color: var(--third-text-color);
 }
 
 .hero .title {
@@ -116,7 +120,7 @@ h3 {
 
 .hero .link {
   background-color: var(--main-blue-color);
-  color: #ffffff;
+  color: var(--third-text-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -138,7 +142,7 @@ h3 {
 }
 
 .advantages .text {
-  color: var(--secondary-test-color);
+  color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -177,7 +181,7 @@ h3 {
 }
 
 .team .text-title {
-  color: var(--secondary-test-color);
+  color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19px;
@@ -187,7 +191,7 @@ h3 {
 /* Футер */
 
 footer {
-  background: #2f303a;
+  background: var(--bg-main-color);
 }
 
 .logo .web {
@@ -195,7 +199,7 @@ footer {
 }
 
 .logo .studio-white {
-  color: #ffffff;
+  color: var(--third-text-color);
 }
 
 .company-address {
@@ -207,7 +211,7 @@ footer {
 }
 
 .company-address .map {
-  color: #ffffff;
+  color: var(--third-text-color);
 }
 
 .company-address .link {
@@ -235,7 +239,7 @@ footer {
 .filter-link:hover,
 .filter-link:focus {
   background-color: var(--hover-link);
-  color: #ffffff;
+  color: var(--third-text-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
@@ -260,7 +264,7 @@ footer {
 }
 
 .examples-text {
-  color: var(--secondary-test-color);
+  color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
